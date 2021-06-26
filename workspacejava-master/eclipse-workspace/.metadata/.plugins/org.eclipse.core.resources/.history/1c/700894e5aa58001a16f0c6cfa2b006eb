@@ -1,0 +1,77 @@
+package driveSchool;
+
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.Toolkit;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+import javax.swing.JMenuBar;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class Board extends JFrame {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private JPanel contentPane;
+
+	private Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+	
+	
+	
+	
+	
+	
+	
+	
+
+	/**
+	 * Create the frame.
+	 */
+	
+	
+	public Board() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(0, 0, screenSize.width, screenSize.height);
+		
+		
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(308, 89, 322, 169);
+		
+		contentPane.add(panel);
+		JButton btnLogin = new JButton("Login");
+		
+		btnLogin.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				
+			}
+		});
+		
+		
+		
+	
+		
+		JMenuBar menuBar = new JMenuBar();
+		menuBar.add(btnLogin);
+		
+		setJMenuBar(menuBar);
+		
+	
+		
+		
+	}
+}

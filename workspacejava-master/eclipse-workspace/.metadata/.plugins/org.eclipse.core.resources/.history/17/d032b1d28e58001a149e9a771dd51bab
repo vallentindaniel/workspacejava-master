@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package driveSchool;
+
+/**
+ * @author valentin
+ *
+ */
+public class Drive {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Conect con = new Conect();
+		
+		con.selectx();
+
+	}
+
+}

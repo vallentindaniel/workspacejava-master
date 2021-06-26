@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;z_tetris.AppletAnimation.drowTetris().e&apos; in &apos;z_tetris.AppletAnimation.drowTetris()&apos; to field&#x0A;- Original project: &apos;z_tetris&apos;&#x0A;- Original element: &apos;z_tetris.AppletAnimation.drowTetris().e&apos;&#x0A;- Field name: &apos;e&apos;&#x0A;- Initialize field in method&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;e&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;z_tetris{AppletAnimation.java" name="e" selection="1658 8" stamp="1581250610319" static="false" version="1.0" visibility="2"/>
+</session>

@@ -1,0 +1,5 @@
+package driveSchool;
+
+public interface Board {
+
+}

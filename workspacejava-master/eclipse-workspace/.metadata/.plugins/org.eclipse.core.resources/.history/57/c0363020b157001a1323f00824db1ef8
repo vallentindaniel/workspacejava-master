@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package dxBall_V2;
+
+/**
+ * @author valentin
+ *
+ */
+public class ball {
+	private position poz;
+	private int  size;
+    
+	
+	public void setBall(int x, int y, int size) {
+		this.size = size;
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package driveSchool;
+
+
+import java.sql.*;
+/**
+ * @author valentin
+ *
+ */
+public class Connection {
+  
+}

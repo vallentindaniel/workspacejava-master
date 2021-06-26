@@ -1,0 +1,39 @@
+package driveSchool;
+
+import java.sql.Date;
+
+public class User 
+{
+	private String user;
+	private String password;
+	private Date data;
+	
+	
+	User(String user, String password, Date data)
+	{
+		this.user = user;
+		this.password = password;
+		this.data = data;
+	}
+	
+	public void save() 
+	{
+		// here is code for save user
+		/*
+		Db.insert(user,password,data);
+		
+		
+		*/
+		
+	}
+	
+
+}
+
+
+
+
+
+
+
+

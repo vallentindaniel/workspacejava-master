@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Inline local variable &apos;z_tetris.Surface.paintComponent().img&apos; in &apos;z_tetris.Surface.paintComponent()&apos;&#x0A;- Original project: &apos;z_tetris&apos;&#x0A;- Original element: &apos;z_tetris.Surface.paintComponent().img&apos;" description="Inline local variable &apos;img&apos;" id="org.eclipse.jdt.ui.inline.temp" input="/src&lt;z_tetris{ColoursEx.java" selection="731 23" stamp="1581076476238" version="1.0"/>
+</session>

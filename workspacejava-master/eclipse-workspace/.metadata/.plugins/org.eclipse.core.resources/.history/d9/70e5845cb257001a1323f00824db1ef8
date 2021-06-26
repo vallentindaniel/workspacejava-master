@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package dxBall_V2;
+
+/**
+ * @author valentin
+ *
+ */
+public class ball {
+	private position poz = new position();
+	private int  size;
+    
+	
+	public void setBall(int x, int y, int size) {
+		poz.SetY(y);
+		poz.SetX(x);
+		this.size = size;
+		
+		
+	}
+	
+	
+	
+}

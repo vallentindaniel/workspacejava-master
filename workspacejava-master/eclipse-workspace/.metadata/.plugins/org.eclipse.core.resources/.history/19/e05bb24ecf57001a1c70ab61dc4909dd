@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package driveSchool;
+
+
+import java.sql.*;
+/**
+ * @author valentin
+ *
+ */
+public class Connection {
+	private Connection con= null;
+	private String url;
+	private String user;
+	private String password;
+	
+	Connection()
+	{
+	  url="";
+	  user="";
+	  password="";
+	}
+	
+	private void conn()
+	{
+		con = DriverManager.getConnection(url, user, password);
+		
+	}
+  
+}

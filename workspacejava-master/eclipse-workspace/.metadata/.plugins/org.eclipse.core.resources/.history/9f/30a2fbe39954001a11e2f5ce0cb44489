@@ -1,0 +1,47 @@
+/**
+ * 
+ */
+package dxBallpkg;
+
+/**
+ * @author valentin
+ *
+ */
+public class ball 
+{
+	
+	private int x;
+	private int y;
+	private int dimension;
+	
+	ball() // initialize x and y
+	{
+		x=500;
+		y=21;
+		dimension=3;
+	}
+	
+	public void set_ball(int x, int y, int dimension) // det new coordonate
+	{    
+		this.x=x;
+		this.y=y;
+		this.dimension= dimension;
+	}
+	
+	public int ball_x()  // return coordonate x for ball
+	{
+		return x;
+	}
+	public int ball_y()  // return coordonate y for ball 
+	{
+		return y;
+	}
+	public int ball_dimension() {
+		return dimension;
+	}
+	
+	protected void finalize() 
+	{
+		System.out.println("object is destroyed");
+	}
+}
